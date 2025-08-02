@@ -558,6 +558,9 @@ small{
         padding-left: 80px;
         padding-right: 25px;
     }
+    .left-container,.right-container{
+        width: 80%;
+    }
     .text-box{
         font-size: 13px;
     }
@@ -574,5 +577,29 @@ small{
         border-right: 15px solid #fff;
         border-left: 0;
         left: -15px;
+    }
+    .education{
+        font-size: 34px;
+    }
+}
+
+/* *************************************************************TECH STACK SECTION********************************************************* */
+@media screen and (max-width: 800px) {
+    .sect3{
+        margin: 50px auto;
+        grid-template-columns: 1fr;
+    }
+    .sect3 .stack_box{
+        width: 60%;
+    }
+    .techstack{
+        font-size: 34px;
+    }  
+}
+
+@media screen and (max-width: 992px){
+    .sect3{
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
     }
 }
