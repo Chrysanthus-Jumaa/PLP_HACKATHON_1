@@ -374,6 +374,66 @@ small{
     left: -15px;
 }
 
+/********************************************************TECH STACK******************************************************************* */
+.techstack{
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    margin: 15px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.sect3{
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em;
+    /* grid-template-areas: "stack_box"; */
+}
+
+.stack_box{
+    /* grid-area: stack_box; */
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 7px;
+    /* position: relative; */
+    /* width: 300px; */
+    border: 2px solid #4FC3F7;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.stack_box img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.stackname{
+    color: #4FC3F7;
+    font-size: 28px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.stack_desc{
+    color: #4FC3F7;
+    font-size: 20px;
+    line-height: 1;
+    margin: 5px;
+}
 
 /* *********************************************MAKING THE WEBPAGE RESPONSIVE****************************************** */
 /* ***********************************************NAVBAR*************************************************************** */
