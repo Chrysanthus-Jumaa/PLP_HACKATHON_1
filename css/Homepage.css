@@ -193,6 +193,115 @@ span{
   }
 }
 
+/* *************************************************STYLING THE HOME SECTION******************************************* */
+.home-section{
+    margin: 100px auto;
+    width: 100%;
+}
+
+.home-section .home-content{
+    left: 50%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    position: relative;
+}
+
+.upper_half{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.upper_half h1{
+    font-size: 48px;
+    line-height: 1;
+    margin: 5px;
+    color: white;
+}
+
+.upper_half h2{
+    color: #4FC3F7;
+    line-height: 1;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.upper_half p{
+    line-height: 1.5;
+    font-size: 28px;
+    color: white;
+    margin: 5px;
+}
+
+.upper_half .collabs_and_socials{
+    margin: 10px;
+}
+
+.upper_half .collabs_and_socials{
+    display: flex;
+    gap: 2em;
+}
+
+.collabs_and_socials .contact_chat{
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    background-color: #4FC3F7;
+    color: white;
+}
+
+/* creating the hover effects */
+.collabs_and_socials .contact_chat:hover{
+    color: #4FC3F7;
+    text-shadow: 0 0 25px white, 0 0 50px white;
+    transform: scale(1.1);
+    background-color: white;
+}
+
+/* styling the socials tag */
+.collabs_and_socials .socials{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+/* styling the social icons themselves */
+.collabs_and_socials .socials a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid #4FC3F7;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10px #4FC3F7, 0 0 10px #4FC3F7;
+    transform: translateX(0);
+    transition: transform 0.3s ease, color 0.3s ease, border 0.3s ease;
+    margin: 0 8px;
+    align-items: center;
+    line-height: 38px;
+}
+
+/* creating the hover effects */
+.collabs_and_socials .socials a:hover{
+    transform: scale(1.2) translateY(-10px);
+    color: #4FC3F7;
+    border: 2px solid #4FC3F7;
+}
+
+.lower_half{
+    margin: 10px;
+}
+
+.lower_half img{
+    padding: 10px;
+}
 /* *********************************************MAKING THE WEBPAGE RESPONSIVE****************************************** */
 /* ***********************************************NAVBAR*************************************************************** */
 .material-icons-outlined{
