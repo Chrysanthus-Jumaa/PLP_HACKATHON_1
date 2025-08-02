@@ -235,7 +235,7 @@ span{
 }
 
 .upper_half .collabs_and_socials{
-    margin: 10px;
+    margin: 5px;
 }
 
 .upper_half .collabs_and_socials{
@@ -251,6 +251,7 @@ span{
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.3s ease;
+    /* width: 60%; */
     cursor: pointer;
     background-color: #4FC3F7;
     color: white;
@@ -388,5 +389,38 @@ span{
     #satellite-container{
         left: 8%;
         top: 40%;
+    }
+}
+/* *************************************************HOME CONTENT************************************************************************ */
+@media screen and (max-width: 910px) {
+    .home-section .home-content{
+        left: 0;
+        width: 100%;
+        position: relative;
+        justify-content: center;
+    }
+    .home-content .upper_half h1{
+        font-size: 30px;
+    }
+    .home-content .upper_half h2{
+        font-size: 24px;
+    }
+    .home-content .upper_half p{
+        font-size: 18px;
+    }
+    .collabs_and_socials{
+        flex-direction: column-reverse;
+    }
+    .home-section .home-content .lower-half {
+        display: flex;
+        justify-content: center;
+    }
+    .contact_chat{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 979px) {
+    .collabs_and_socials{
+        flex-direction: column-reverse;
     }
 }
