@@ -86,5 +86,70 @@
         <div class="star"></div>
         <div class="star"></div>
     </div>
-</body>
+    <!-- CREATING THE CONTACT FORM -->
+    <!-- I'll start with the header -->
+    <header class="cme">CONTACT ME</header>
+    <section class="contactform">
+        <div class="left">
+            <h3 class="heading">Get in touch</h3>
+            <p class="text">Let's connect! I am ready to serve.</p>
+            <!-- creating the form itself -->
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- creating the input boxes for each input field -->
+                <div class="inputbox">
+                    <input type="hidden" name="access_key" value="889b255f-6772-4205-bb7b-6ef8b088792e">
+                    <input 
+                    type="text" 
+                    name="name"
+                    class="name" 
+                    placeholder="Enter your name">
+                </div>
+
+                <div class="inputbox">
+                    <input 
+                    type="text" 
+                    name="email"
+                    class="email" 
+                    placeholder="Enter your email address">
+                </div>
+
+                <div class="inputbox">
+                    <textarea 
+                        name="message" 
+                        class="message" 
+                        placeholder="Enter your message" 
+                        rows="6"
+                        style="
+                        resize: none;
+                        width: 100%;
+                        padding: 10px;
+                        font-size: 16px;
+                        border-radius: 5px;
+                        border: 1px solid #4FC3F7;
+                        background-color: rgba(0, 0, 0, 0.219);
+                        color: aliceblue;
+                        line-height: 1.5;
+                        vertical-align: top;
+                        box-sizing: border-box;
+                        "></textarea>
+                </div>
+
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- creating the right column of the form -->
+        <div class="right">
+            <div class="illustrations">
+                <img src="/assets/communication_illustrations_prime-removebg-preview.png" alt="">
+            </div>
+            <div class="emailname">
+                <div class="socials">
+                    <a href="#" class="mailsocial"><i class='bx bxs-envelope'></i></a>
+                </div>
+                <h3>chrysanthusjumaa@gmail.com</h3>
+            </div>
+        </div>
+    </section>
+</body> 
 </html>
