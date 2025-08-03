@@ -207,6 +207,7 @@ span{
     color: #4FC3F7;
     margin: 15px;
     display: flex;
+    line-height: 1;
     padding: 15px;
     font-weight: 600;
     justify-content: center;
@@ -299,5 +300,12 @@ span{
     #satellite-container{
         left: 8%;
         top: 40%;
+    }
+}
+/* *******************************************COMING SOON******************************************************* */
+@media screen and (max-width: 700px){
+    .csoonheading{
+        line-height: 1;
+        font-size: 60px;
     }
 }
