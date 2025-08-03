@@ -585,7 +585,7 @@ small{
 }
 
 /* *************************************************************TECH STACK SECTION********************************************************* */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
     .techstack{
         font-size: 35px;
         justify-content: center;
@@ -594,16 +594,6 @@ small{
         grid-template-columns: 1fr;
     }
 }
-@media screen and (max-width: 992px) {
-    .techstack{
-        font-size: 35px;
-        justify-content: center;
-    }
-    .sect3{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
 @media screen and (min-width:325px) {
     .techstack{
         justify-content: center;
