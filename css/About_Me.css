@@ -376,6 +376,7 @@ small{
 
 /********************************************************TECH STACK******************************************************************* */
 .techstack{
+    display: flex;
     align-items: center;
     position: relative;
     z-index: 1;
@@ -558,9 +559,9 @@ small{
         padding-left: 80px;
         padding-right: 25px;
     }
-    .left-container,.right-container{
+    /* .left-container,.right-container{
         width: 80%;
-    }
+    } */
     .text-box{
         font-size: 13px;
     }
@@ -584,22 +585,27 @@ small{
 }
 
 /* *************************************************************TECH STACK SECTION********************************************************* */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+    .techstack{
+        font-size: 35px;
+        justify-content: center;
+    }
     .sect3{
-        margin: 50px auto;
         grid-template-columns: 1fr;
     }
-    .sect3 .stack_box{
-        width: 60%;
-    }
+}
+@media screen and (max-width: 992px) {
     .techstack{
-        font-size: 34px;
-    }  
+        font-size: 35px;
+        justify-content: center;
+    }
+    .sect3{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-@media screen and (max-width: 992px){
-    .sect3{
-        margin: 50px auto;
-        grid-template-columns: 1fr 1fr;
+@media screen and (min-width:325px) {
+    .techstack{
+        justify-content: center;
     }
 }
